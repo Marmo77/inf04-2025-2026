@@ -1,0 +1,3 @@
+Windows 11 Home
+Visual Studio Code
+Python, JavaScript, JSX, React, Bootstrap
