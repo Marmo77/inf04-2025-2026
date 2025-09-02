@@ -9,9 +9,13 @@ Plik z wszystkimi plikami do inf04.
 ----- Python / JavaScript, JSX, React, Bootstrap -----
 
 
-################# PYTHON #################
+# <p align="center">Python (konsolowa)</p>
+
 ![konsolowe_python](./inf04-2022-06-02/testy/konsola1.png)
 
 
-################# REACT + JS #################
+# <p align="center">React + JS (Aplikacja Webowa)</p>
+
 ![progrmowanie_front-end-react+js](./inf04-2022-06-02/testy/web3.png)
+
+*credits:* [ja](https://www.github.com/Marmo77)
