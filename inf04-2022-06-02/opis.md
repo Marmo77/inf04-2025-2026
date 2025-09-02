@@ -22,3 +22,5 @@ Screeny z funkcjonalności obu folderów oraz
 *Nazwę systemu operacyjnego, na którym pracował zdający
 Nazwy środowisk programistycznych, z których zdający korzystał na egzaminie
 Nazwy języków programowania / frameworków / bibliotek użytych podczas tworzenia aplikacji*
+
+------------------------------------------------------------------
