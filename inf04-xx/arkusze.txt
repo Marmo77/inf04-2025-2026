@@ -1,0 +1,67 @@
+Teoria:
+
+
+Praktyka:
+będą 2 inne bo webowy nie istnieje więc samemu stworzę polecnie do niego (z AI)
+
+1. konsolowe
+https://egzamin-programista.pl/arkusz-praktyczny-inf04-2024-01-02/
+
+2. webowy
+Polecenie:
+
+Egzamin INF.04 - Część II. Aplikacja Web
+Zadanie: System rezerwacji sal konferencyjnych
+Wykonaj aplikację internetową typu front-end obsługującą rezerwacje sal konferencyjnych z zastosowaniem dostępnego na stanowisku egzaminacyjnym frameworka Angular lub biblioteki React. Zastosuj bibliotekę Bootstrap do zdefiniowania stylu formularza.
+Obraz 1a. Aplikacja framework Angular
+Obraz 1b. Aplikacja React.js
+Na obrazach 1a i 1b przedstawiono działanie aplikacji przygotowanej w środowisku Angular i React.js, stan po wybraniu przycisku „Zarezerwuj salę". W konsoli widoczne wyświetlenie danych rezerwacji na podstawie informacji wprowadzonych do formularza.
+Założenia aplikacji:
+
+Aplikacja składa się z jednego komponentu
+Danymi komponentu jest tablica z nazwami sal konferencyjnych, o elementach: "Sala Apollo", "Sala Mercury", "Sala Venus", "Sala Mars", "Sala Jupiter". Dla uproszczenia tablica może być zdefiniowana jako pole komponentu. Należy założyć, że tablica w przyszłości może się zmienić, co będzie miało wpływ na zachowanie i wygląd aplikacji.
+Komponent wyświetla:
+
+Nagłówek pierwszego stopnia o treści: „System rezerwacji sal konferencyjnych"
+Nagłówek trzeciego stopnia o treści: „Dostępne sale: <liczba>", gdzie <liczba> oznacza wielkość tablicy z nazwami sal
+Listę punktowaną generowaną automatycznie dla wszystkich elementów tablicy, niezależnie od jej wymiaru
+Formularz składający się z:
+
+pola edycyjnego i jego etykiety o treści „Nazwa firmy:"
+pola edycyjnego i jego etykiety o treści „Osoba kontaktowa:"
+edycyjnego pola numerycznego i jego etykiety o treści „Numer sali:"
+pola daty i jego etykiety o treści „Data rezerwacji:"
+edycyjnego pola numerycznego i jego etykiety o treści „Liczba uczestników:"
+przycisku „Zarezerwuj salę"
+
+Aplikacja w stanie początkowym wyświetla puste pola formularza
+Elementy formularza są formatowane zgodnie z obrazem 1a lub 1b za pomocą stylów biblioteki Bootstrap. Do budowy szablonu HTML należy wykorzystać pomoc zamieszczoną w Tabeli 1. Należy zastosować znaczące nazwy dla identyfikatorów pól formularza
+Po wybraniu przycisku formularza jest generowane zdarzenie zatwierdzenia formularza, które wyświetla w konsoli przeglądarki:
+
+Nazwę firmy wpisaną w pierwszym polu formularza
+Osobę kontaktową wpisaną w drugim polu formularza
+Nazwę sali odpowiadającą numerowi wpisanemu w trzecie pole formularza, gdy sala o takim numerze istnieje. W przeciwnym wypadku wyświetla komunikat "Nieprawidłowy numer sali"
+Datę rezerwacji wybraną w czwartym polu formularza
+Liczbę uczestników wpisaną w piątym polu formularza
+
+
+Aplikacja powinna być zapisana czytelnie, z zachowaniem zasad czystego formatowania kodu, należy stosować znaczące nazwy zmiennych i funkcji
+Dokumentacja do programu wykonana zgodnie z wytycznymi z części III zadania egzaminacyjnego
+
+Kod aplikacji przygotuj do nagrania na płytę. W podfolderze web powinno znaleźć się archiwum całego projektu o nazwie web.zip oraz pliki z kodem źródłowym, które były modyfikowane.
+
+Tabela 1. Pomoc do formatowania Bootstrap
+ElementKlasa BootstrapKontener formularzacontainerGrupa pól formularzaform-group mb-3Etykietaform-labelPole tekstoweform-controlPole numeryczneform-controlPole datyform-controlPrzyciskbtn btn-primaryLista punktowanalist-unstyled
+
+Przykład oczekiwanego wyjścia w konsoli:
+Nazwa firmy: TechCorp Sp. z o.o.
+Osoba kontaktowa: Jan Kowalski
+Nazwa sali: Sala Apollo
+Data rezerwacji: 2025-01-15
+Liczba uczestników: 25
+lub
+Nazwa firmy: DataSoft
+Osoba kontaktowa: Anna Nowak
+Nieprawidłowy numer sali
+Data rezerwacji: 2025-02-10
+Liczba uczestników: 12
