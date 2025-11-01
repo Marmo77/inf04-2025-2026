@@ -1,0 +1,1 @@
+Tylko pliki zmodyfikowane są w folderze, caly source code jest w .zip
