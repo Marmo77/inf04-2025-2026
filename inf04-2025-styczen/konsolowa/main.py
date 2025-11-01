@@ -17,12 +17,19 @@ class Losowanie:
             # self.losowe_zestawy.append([random.randint(1,49) for _ in range(6)]) # jeśli mogly by sie powtorzyć
 
         return self.losowe_zestawy
-
+    # **********************************************
+    # nazwa funkcji:                 wypisz
+    # opis funkcji:                  funkcja wypisuje wylosowane zestawy liczb, przechodzi pętlą przez wszystkie wylosowane zestawy, zamienia list na str usuwjąc "," i "[]", 
+    #                                następnie wypisuje (printuje) wylosowane zestawy
+    # parametry:                     brak
+    # zwracany typ i opis:           brak
+    # autor:                         XYZ
+    # ***********************************************
     def wypisz(self):
         print("Zestawy wylosowanych liczb:")
-        for idx, num in enumerate(self.losowe_zestawy):
+        for idx, num in enumerate(self.losowe_zestawy, start=1):
             tabela_na_tekst = str(num).replace(",", "").split("[")[1].split("]")[0]
-            print(f"Losowanie {idx+1}:", tabela_na_tekst)
+            print(f"Losowanie {idx}:", tabela_na_tekst)
 
     def wystapienia(self):
         powtorki: dict = {}
