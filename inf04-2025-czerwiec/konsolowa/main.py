@@ -20,7 +20,7 @@ class Losowanie:
     # **********************************************
     # nazwa funkcji:                 wypisz
     # opis funkcji:                  funkcja wypisuje wylosowane zestawy liczb, przechodzi pętlą przez wszystkie wylosowane zestawy, zamienia list na str usuwjąc "," i "[]", 
-    #                                następnie wypisuje (printuje) wylosowane zestawy
+    #                                następnie wypisuje (printuje) wylosowane zestawy.
     # parametry:                     brak
     # zwracany typ i opis:           brak
     # autor:                         XYZ
