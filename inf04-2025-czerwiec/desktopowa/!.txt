@@ -1,1 +1,2 @@
 Tylko pliki zmodyfikowane są w folderze, caly source code jest w .zip
+(dokumentacja jest tylko w zmodyfikowanym kodzie (nie ma tego w .zip)

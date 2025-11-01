@@ -22,6 +22,14 @@
   
         }
 
+        <!-- **********************************************
+        nazwa funkcji:          Button_Clicked
+        opis funkcji:           funkcja po kliknieciu w guzik pobiera wartosci z suwaków, następnie zmienia tekst na pobrane wartosci, 
+                                tak samo zamienia tlo tekstu na odpowiadający pobranym wartosciami
+        parametry:              brak
+        zwracany typ i opis:    brak
+        autor:                  XYZ
+        *********************************************** -->
         private void Button_Clicked(object sender, EventArgs e)
         {
             var r_value = (int)SuwakR.Value;
