@@ -2,6 +2,16 @@ class Algorytm:
     def __init__(self) -> None:
         pass
     
+
+
+    # **********************************************
+    # nazwa funkcji:            nwd
+    # opis funkcji:             funkcja szuka najwiekszego wspolnego dzielnika według algorytmu euklidesa.
+    # parametry:                a - jedna z liczb podawanych przez użytkownika ( musi być dodatnia (a > 0) )
+    #                           b - jedna z liczb podawanych przez użytkownika ( musi być dodatnia (a > 0) )
+    # zwracany typ i opis:      int - największy wspólny dzielnik liczb a i b podanych przez użytkownika
+    # autor:                    XYZ
+    # ***********************************************
     def nwd(self, a: int, b: int) -> int: #najwiekszy wspolny dzielnik
         while True:
             if a != b:
@@ -18,8 +28,7 @@ class Algorytm:
 if __name__ == "__main__":
 
     nwd_algorytm = Algorytm()
-    # print(sol.nwd(52,128))
-
+    
     while True:
         try:
             a = int(input("Podaj liczbę a: "))
