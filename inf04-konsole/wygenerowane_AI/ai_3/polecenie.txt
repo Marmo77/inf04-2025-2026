@@ -1,0 +1,162 @@
+INF.04 CZĘŚĆ I (Aplikacja konsolowa)
+Aplikacja konsolowa – System Zarządzania Kontami Bankowymi
+
+Za pomocą narzędzi do tworzenia aplikacji konsolowych zaimplementuj program obsługujący proste operacje na kontach bankowych.
+
+Założenia aplikacji:
+Technologia
+
+Język: C++, C#, Java lub Python (zgodnie ze stanowiskiem egzaminacyjnym).
+
+Program wykonywany w konsoli.
+
+Dowolne podejście (strukturalne lub obiektowe), ale zaleca się obiektowe.
+
+Opis działania programu
+
+Program symuluje działanie prostego systemu bankowego. Wczytuje dane o klientach i umożliwia wykonywanie operacji na ich kontach.
+
+Założenia funkcjonalne
+1. Reprezentacja konta
+
+Zaimplementuj klasę KontoBankowe posiadającą:
+
+Pola:
+
+Numer konta – tekst (string), 10 znaków.
+
+Imię właściciela – tekst.
+
+Nazwisko właściciela – tekst.
+
+Saldo – liczba zmiennoprzecinkowa.
+
+Wszystkie pola mają być prywatne.
+
+Konstruktor:
+
+Przyjmuje: numer konta, imię, nazwisko, saldo początkowe.
+
+2. Metody klasy
+a) Wyświetlanie danych konta
+
+void Wyswietl() – wypisuje:
+
+Numer konta: <...>
+Właściciel: <imię> <nazwisko>
+Saldo: <wartość>
+
+b) Wpłata środków
+
+void Wplata(double kwota)
+– zwiększa saldo o kwotę, jeśli kwota > 0.
+
+c) Wypłata środków
+
+bool Wyplata(double kwota)
+– zmniejsza saldo o kwotę, jeśli:
+
+kwota > 0
+
+na koncie jest wystarczająca ilość środków
+Zwraca true, gdy operacja zakończona sukcesem, w przeciwnym razie false.
+
+d) Pobranie aktualnego salda
+
+double PobierzSaldo()
+
+3. Program główny
+Program:
+
+Wczytuje liczbę kont do utworzenia, n z przedziału 2–10.
+Jeśli podana liczba jest poza zakresem, pyta ponownie.
+
+Tworzy tablicę lub listę obiektów klasy KontoBankowe.
+Dla każdego konta:
+
+wczytuje numer konta (dokładnie 10 znaków),
+
+imię i nazwisko właściciela,
+
+saldo początkowe (>= 0).
+
+Wyświetla menu operacji na kontach:
+
+1 – Wyświetl szczegóły konta
+2 – Wpłata na konto
+3 – Wypłata z konta
+4 – Wyświetl konta z saldem poniżej zadanej wartości
+5 – Zakończ program
+
+
+Program wykonuje operacje do momentu wybrania opcji 5.
+
+Szczegółowe zasady działania opcji menu
+Opcja 1 – Wyświetl szczegóły konta
+
+Wczytaj numer konta.
+
+Znajdź konto.
+
+Jeśli istnieje → wyświetl dane przez metodę Wyswietl().
+
+Jeśli nie istnieje → wyświetl komunikat "Nie znaleziono konta".
+
+Opcja 2 – Wpłata
+
+Wczytaj numer konta.
+
+Wczytaj kwotę.
+
+Jeśli konto istnieje i kwota poprawna → wykonaj Wplata().
+
+W przeciwnym wypadku wyświetl błąd.
+
+Opcja 3 – Wypłata
+
+Wczytaj numer konta.
+
+Wczytaj kwotę.
+
+Wywołaj Wyplata().
+
+Jeśli operacja się nie powiedzie → wyświetl komunikat o braku środków.
+
+Opcja 4 – Wyszukiwanie salda poniżej wartości
+
+Wczytaj limit.
+
+Wyświetl dane wszystkich kont, których saldo < limit.
+
+Jeśli brak takich kont → wyświetl komunikat.
+
+Wymagania projektowe
+
+Program musi mieć przynajmniej jedną klasę (lub więcej przy podejściu obiektowym).
+
+Dane o kontach muszą być przechowywane w tablicy lub liście.
+
+Komunikaty muszą być jasne i czytelne.
+
+Zmiennych i metod należy używać zgodnie ze standardami nazewnictwa.
+
+Kod powinien być odpowiednio sformatowany i czytelny.
+
+W podejściu strukturalnym nie wolno używać zmiennych globalnych.
+
+Elementy, które muszą być dołączone (zgodnie z częścią III egzaminu)
+
+Dokumentacja aplikacji.
+
+Zrzuty ekranu z działania programu.
+
+Opis struktur danych i funkcji/metod.
+
+✔️ Polecenie spełnia wszystkie standardy INF.04, ale nie jest kopią żadnego wcześniejszego zadania.
+
+Jeśli chcesz, mogę również:
+
+✅ napisać pełne rozwiązanie w wybranym języku
+✅ przygotować dokumentację do części III
+✅ wygenerować testy i przykładowe dane
+✅ stworzyć kolejne nowe polecenia (mogę zrobić nawet 10–20)
