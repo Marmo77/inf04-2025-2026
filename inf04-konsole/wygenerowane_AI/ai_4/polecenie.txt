@@ -1,0 +1,71 @@
+Aplikacja konsolowa – Analiza temperatur
+
+Napisz program konsolowy, który pobiera od użytkownika temperatury z kilku dni i wykonuje na nich podstawowe obliczenia.
+
+Założenia aplikacji:
+
+Program wykonuje się w konsoli.
+
+Można użyć języka: Python, C++, C#, Java.
+
+Dopuszcza się podejście strukturalne lub obiektowe.
+
+Używamy tablicy lub listy do przechowywania danych.
+
+Opis działania programu
+
+Program pyta użytkownika o liczbę dni, dla których poda temperatury.
+Wartość musi być z przedziału 3–14.
+Jeśli liczba jest poza zakresem → program ma pytać ponownie.
+
+Program wczytuje temperatury tyle razy, ile wynosi liczba dni.
+Temperatura może być liczbą zmiennoprzecinkową (np. 21.5).
+
+Program wyświetla:
+
+wszystkie wprowadzone temperatury,
+
+średnią temperaturę,
+
+najwyższą temperaturę,
+
+najniższą temperaturę.
+
+Program pyta użytkownika:
+
+Czy chcesz wykonać kolejne obliczenia? (t/n)
+
+
+t → wraca do punktu 1,
+
+n → kończy działanie programu.
+
+Wymagania techniczne
+
+Dane temperatur mają być przechowywane w tablicy lub liście.
+
+Komunikaty muszą być zrozumiałe.
+
+Kod ma być czytelny i poprawnie sformatowany.
+
+Można używać polskich lub angielskich nazw zmiennych.
+
+Brak zmiennych globalnych przy podejściu strukturalnym.
+
+Przykład działania (fragment)
+Ile dni chcesz wprowadzić? (3–14):
+5
+Podaj temperaturę dnia 1: 20
+Podaj temperaturę dnia 2: 18.5
+Podaj temperaturę dnia 3: 22.3
+Podaj temperaturę dnia 4: 19.8
+Podaj temperaturę dnia 5: 21.0
+
+Wprowadzone temperatury:
+20, 18.5, 22.3, 19.8, 21.0
+
+Średnia temperatura: 20.32
+Najniższa temperatura: 18.5
+Najwyższa temperatura: 22.3
+
+Czy chcesz wykonać kolejne obliczenia? (t/n)
