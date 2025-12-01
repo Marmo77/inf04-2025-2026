@@ -6,12 +6,9 @@ class AnalizaPogody:
         self.temperatury = temperatury
 
     def oblicz_temperatury(self):
-        srednia = 0
+        srednia = sum(self.temperatury) / len(self.temperatury)
         najwyzsza_temp = max(self.temperatury)
         najniza_temp = min(self.temperatury)
-        for i in self.temperatury:
-            srednia += i
-        srednia = srednia / len(self.temperatury)
 
         print(f"Średnia temperatura: {round(srednia,2)}")
         print(f"Najwyższa temperatura: {najwyzsza_temp}")
