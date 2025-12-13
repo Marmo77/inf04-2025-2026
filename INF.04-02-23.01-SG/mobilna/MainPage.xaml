@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="10,0">
+
+            <Grid ColumnDefinitions="*, 150" HeightRequest="50" VerticalOptions="Start" ColumnSpacing="15">
+                <Entry Placeholder="Nowy element" Grid.Column="0" x:Name="TrescNotatki" />
+                <Button Text="DODAJ" Grid.Column="1" BackgroundColor="#DC143C" TextColor="White" Clicked="DopiszDoListy"/>
+            </Grid>
+            <CollectionView Margin="0,15" x:Name="ListaNotatek" ItemsSource="{Binding Notes}">
+                <!-- 
+                <CollectionView.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Zakupy: chleb, masło, ser</x:String>
+                        <x:String>Do zrobienia: obiad, umyć podłogi</x:String>
+                        <x:String>weekend: kino, spacer z psem</x:String>
+                    </x:Array>
+                </CollectionView.ItemsSource>
+                -->
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <VerticalStackLayout Spacing="5">
+                            <Label Text="{Binding}" FontSize="24"/>
+                            <BoxView HeightRequest="2" Color="Crimson"></BoxView>
+                        </VerticalStackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </VerticalStackLayout>
+
+    </ScrollView>
+
+</ContentPage>
