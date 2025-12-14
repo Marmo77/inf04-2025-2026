@@ -51,7 +51,7 @@ class LiczbyPodzielneNiepodzielne
             Console.WriteLine($"{i}: {LiczbyTablicy[i]}");
         }
     }
-    
+
     public int PierwszeWystąpienie(int szukanaLiczba)
     {
         //Wyszukująca pierwsze wystąpienie wartości, przekazanej
@@ -60,7 +60,7 @@ class LiczbyPodzielneNiepodzielne
 
         for (int i = 0; i < IloscElemTablicy; i++)
         {
-            if(szukanaLiczba == LiczbyTablicy[i])
+            if (szukanaLiczba == LiczbyTablicy[i])
             {
                 //Console.WriteLine($"Znaleziono na idx: {i}, liczbe: {LiczbyTablicy[i]}");
                 Console.WriteLine($"Znaleziono podaną liczbę na indeksie: {i}");
@@ -71,6 +71,13 @@ class LiczbyPodzielneNiepodzielne
 
         return -1;
     }
+    // **********************************************
+    // nazwa metody: NieparzysteElementy
+    // opis metody: wypisuje nieparzyste liczby z tablicy, wypisuje ich sume oraz zwraca ilosc nieparzystych liczb.
+    // parametry: brak
+    // zwracany typ i opis: typ: int, opis: zwraca ilosc Nieparzystych liczb występujących w tablicy.  
+    // autor: Marmo77 (*nie liczyc do punktacji*)
+    // ***********************************************
     public int NieparzysteElementy()
     {
         Console.WriteLine("Liczby nieparzyste: ");
