@@ -1,3 +1,6 @@
+# ARKUSZ:
+# https://egzamin-programista.vercel.app/practice/inf04/INF.04-02-23.06-SG/INF.04-02-23.06-SG.pdf
+
 import random
 
 class KlasaSortowan:
@@ -23,3 +26,6 @@ sortowanie = KlasaSortowan()
 sortowanie.sortowanie_babelkowe(tablica=tablica_do_sortowania)
 
 
+# ARKUSZ:
+# https://egzamin-programista.vercel.app/practice/inf04/INF.04-02-23.06-SG/INF.04-02-23.06-SG.pdf
+# https://github.com/Marmo77
