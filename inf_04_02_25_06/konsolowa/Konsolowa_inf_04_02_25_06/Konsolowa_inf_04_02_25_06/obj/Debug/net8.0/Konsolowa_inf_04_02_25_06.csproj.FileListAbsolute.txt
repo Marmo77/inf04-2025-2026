@@ -1,0 +1,15 @@
+D:\prog\inf04-2025\LastDanceExamin\inf_04_02_25_06\konsolowa\Konsolowa_inf_04_02_25_06\Konsolowa_inf_04_02_25_06\bin\Debug\net8.0\Konsolowa_inf_04_02_25_06.exe
+D:\prog\inf04-2025\LastDanceExamin\inf_04_02_25_06\konsolowa\Konsolowa_inf_04_02_25_06\Konsolowa_inf_04_02_25_06\bin\Debug\net8.0\Konsolowa_inf_04_02_25_06.deps.json
+D:\prog\inf04-2025\LastDanceExamin\inf_04_02_25_06\konsolowa\Konsolowa_inf_04_02_25_06\Konsolowa_inf_04_02_25_06\bin\Debug\net8.0\Konsolowa_inf_04_02_25_06.runtimeconfig.json
+D:\prog\inf04-2025\LastDanceExamin\inf_04_02_25_06\konsolowa\Konsolowa_inf_04_02_25_06\Konsolowa_inf_04_02_25_06\bin\Debug\net8.0\Konsolowa_inf_04_02_25_06.dll
+D:\prog\inf04-2025\LastDanceExamin\inf_04_02_25_06\konsolowa\Konsolowa_inf_04_02_25_06\Konsolowa_inf_04_02_25_06\bin\Debug\net8.0\Konsolowa_inf_04_02_25_06.pdb
+D:\prog\inf04-2025\LastDanceExamin\inf_04_02_25_06\konsolowa\Konsolowa_inf_04_02_25_06\Konsolowa_inf_04_02_25_06\obj\Debug\net8.0\Konsolowa_inf_04_02_25_06.GeneratedMSBuildEditorConfig.editorconfig
+D:\prog\inf04-2025\LastDanceExamin\inf_04_02_25_06\konsolowa\Konsolowa_inf_04_02_25_06\Konsolowa_inf_04_02_25_06\obj\Debug\net8.0\Konsolowa_inf_04_02_25_06.AssemblyInfoInputs.cache
+D:\prog\inf04-2025\LastDanceExamin\inf_04_02_25_06\konsolowa\Konsolowa_inf_04_02_25_06\Konsolowa_inf_04_02_25_06\obj\Debug\net8.0\Konsolowa_inf_04_02_25_06.AssemblyInfo.cs
+D:\prog\inf04-2025\LastDanceExamin\inf_04_02_25_06\konsolowa\Konsolowa_inf_04_02_25_06\Konsolowa_inf_04_02_25_06\obj\Debug\net8.0\Konsolowa_inf_04_02_25_06.csproj.CoreCompileInputs.cache
+D:\prog\inf04-2025\LastDanceExamin\inf_04_02_25_06\konsolowa\Konsolowa_inf_04_02_25_06\Konsolowa_inf_04_02_25_06\obj\Debug\net8.0\Konsolowa_inf_04_02_25_06.sourcelink.json
+D:\prog\inf04-2025\LastDanceExamin\inf_04_02_25_06\konsolowa\Konsolowa_inf_04_02_25_06\Konsolowa_inf_04_02_25_06\obj\Debug\net8.0\Konsolowa_inf_04_02_25_06.dll
+D:\prog\inf04-2025\LastDanceExamin\inf_04_02_25_06\konsolowa\Konsolowa_inf_04_02_25_06\Konsolowa_inf_04_02_25_06\obj\Debug\net8.0\refint\Konsolowa_inf_04_02_25_06.dll
+D:\prog\inf04-2025\LastDanceExamin\inf_04_02_25_06\konsolowa\Konsolowa_inf_04_02_25_06\Konsolowa_inf_04_02_25_06\obj\Debug\net8.0\Konsolowa_inf_04_02_25_06.pdb
+D:\prog\inf04-2025\LastDanceExamin\inf_04_02_25_06\konsolowa\Konsolowa_inf_04_02_25_06\Konsolowa_inf_04_02_25_06\obj\Debug\net8.0\Konsolowa_inf_04_02_25_06.genruntimeconfig.cache
+D:\prog\inf04-2025\LastDanceExamin\inf_04_02_25_06\konsolowa\Konsolowa_inf_04_02_25_06\Konsolowa_inf_04_02_25_06\obj\Debug\net8.0\ref\Konsolowa_inf_04_02_25_06.dll

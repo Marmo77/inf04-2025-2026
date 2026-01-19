@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Konsolowa_inf_04_02_25_06/1.0.0": {
+        "runtime": {
+          "Konsolowa_inf_04_02_25_06.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Konsolowa_inf_04_02_25_06/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
