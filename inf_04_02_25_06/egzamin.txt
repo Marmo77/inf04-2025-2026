@@ -1,0 +1,8 @@
+
+System operacyjny: Windows 11 Home
+Środowisko programistyczne: Visual Studio 2022
+Języki programowania: XAML, C#
+
+
+
+https://www.praktycznyegzamin.pl/inf04/praktyka/inf_04_02_25_06/
