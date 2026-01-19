@@ -1,0 +1,47 @@
+Do nauki:
+
+C#:
+
+- przypomnienie wszystkich rodzajów string,bool
+- konstruktory, dziedziczenia, hermetyzacja
+- komunikacja z użytkownikiem
+- prywatności i analiza egzaminow, readonly (dostępny globalnie)
+- get set'y, Random, static, while returny, try, excepty
+- Formatowanie i edytowanie plików tekstowych
+- Podstawe algorytmy - Binary Search, jump search, bąbelkowe, 
+
+- Testy Jednostkowe
+
+
+XAML:
+
+Formatowanie Układów:
+- StackLayout (Horizontal, Vertical)
+- Grid (Row Col) - *, Auto, 5*
+- Frame
+Kontrolki:
+- Label (text, horiztional/vertical TextAlignment)
+- Button (Clicked, Cornr Radious)
+- Image (Source, opacity)
+- Entry (placeholder, isPassword, unFocused, focused)
+- Editor
+- CheckBox (isChecked)
+- RadioButton (groupName, Content, Value)
+- Switch (isToggled)
+- Slider(Minimum, maximum, value)
+- Stepper(Minimum, maximum, increase, value)
+- DataPicker/TimePicker (Date, Format)
+Listy:
+- Collection View
+- ItemTemplate
+- DataTemplate:
+- "{Binding}"
+w .cs: BindingContext = Lista Przedmiotow {"Jan", "Pawel"};
+
+.XAML.cs:
+
+- obsługa x:Name="Nazwa"
+i pobieranie danych z tego np. string t = Nazwa.Text;
+
+int x = int.Parse(t);
+(object sender, EventArgs e - nie trzeba bo jak w Button Clicked samo zasugeruje stworzenie)
