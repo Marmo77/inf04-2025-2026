@@ -1,0 +1,15 @@
+D:\prog\inf04-2025\LastDanceExamin\Konsolowa-Powtorzenie\Konsolowa-Powtorzenie\bin\Debug\net8.0\Konsolowa-Powtorzenie.exe
+D:\prog\inf04-2025\LastDanceExamin\Konsolowa-Powtorzenie\Konsolowa-Powtorzenie\bin\Debug\net8.0\Konsolowa-Powtorzenie.deps.json
+D:\prog\inf04-2025\LastDanceExamin\Konsolowa-Powtorzenie\Konsolowa-Powtorzenie\bin\Debug\net8.0\Konsolowa-Powtorzenie.runtimeconfig.json
+D:\prog\inf04-2025\LastDanceExamin\Konsolowa-Powtorzenie\Konsolowa-Powtorzenie\bin\Debug\net8.0\Konsolowa-Powtorzenie.dll
+D:\prog\inf04-2025\LastDanceExamin\Konsolowa-Powtorzenie\Konsolowa-Powtorzenie\bin\Debug\net8.0\Konsolowa-Powtorzenie.pdb
+D:\prog\inf04-2025\LastDanceExamin\Konsolowa-Powtorzenie\Konsolowa-Powtorzenie\obj\Debug\net8.0\Konsolowa-Powtorzenie.GeneratedMSBuildEditorConfig.editorconfig
+D:\prog\inf04-2025\LastDanceExamin\Konsolowa-Powtorzenie\Konsolowa-Powtorzenie\obj\Debug\net8.0\Konsolowa-Powtorzenie.AssemblyInfoInputs.cache
+D:\prog\inf04-2025\LastDanceExamin\Konsolowa-Powtorzenie\Konsolowa-Powtorzenie\obj\Debug\net8.0\Konsolowa-Powtorzenie.AssemblyInfo.cs
+D:\prog\inf04-2025\LastDanceExamin\Konsolowa-Powtorzenie\Konsolowa-Powtorzenie\obj\Debug\net8.0\Konsolowa-Powtorzenie.csproj.CoreCompileInputs.cache
+D:\prog\inf04-2025\LastDanceExamin\Konsolowa-Powtorzenie\Konsolowa-Powtorzenie\obj\Debug\net8.0\Konsolowa-Powtorzenie.sourcelink.json
+D:\prog\inf04-2025\LastDanceExamin\Konsolowa-Powtorzenie\Konsolowa-Powtorzenie\obj\Debug\net8.0\Konsolowa-Powtorzenie.dll
+D:\prog\inf04-2025\LastDanceExamin\Konsolowa-Powtorzenie\Konsolowa-Powtorzenie\obj\Debug\net8.0\refint\Konsolowa-Powtorzenie.dll
+D:\prog\inf04-2025\LastDanceExamin\Konsolowa-Powtorzenie\Konsolowa-Powtorzenie\obj\Debug\net8.0\Konsolowa-Powtorzenie.pdb
+D:\prog\inf04-2025\LastDanceExamin\Konsolowa-Powtorzenie\Konsolowa-Powtorzenie\obj\Debug\net8.0\Konsolowa-Powtorzenie.genruntimeconfig.cache
+D:\prog\inf04-2025\LastDanceExamin\Konsolowa-Powtorzenie\Konsolowa-Powtorzenie\obj\Debug\net8.0\ref\Konsolowa-Powtorzenie.dll

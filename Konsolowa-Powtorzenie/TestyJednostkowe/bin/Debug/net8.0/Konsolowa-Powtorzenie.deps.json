@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Konsolowa-Powtorzenie/1.0.0": {
+        "runtime": {
+          "Konsolowa-Powtorzenie.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Konsolowa-Powtorzenie/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
