@@ -1,6 +1,8 @@
 # inf04-2025-2026
 Plik z wszystkimi plikami do inf04.
 
+# -------------- ZDANE --------------
+
 *Egzaminy Praktyczne do egzaminu inf04*
 *Są to egzaminy rozwiązane **(przeze mnie)**, i w folderze znajdują się linki do **Arkuszy***
 
